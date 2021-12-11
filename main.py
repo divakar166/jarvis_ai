@@ -29,9 +29,6 @@ class Ui_MainWindow(object):
         self.label_2.setObjectName("label_2")
         self.label_3 = QtWidgets.QLabel(self.centralwidget)
         self.label_3.setGeometry(QtCore.QRect(1660, 30, 211, 101))
-        font = QtGui.QFont()
-        font.setPointSize(-1)
-        self.label_3.setFont(font)
         self.label_3.setStyleSheet("COLOR:#00FF00;\n"
 "font-size:50px;")
         self.label_3.setAlignment(QtCore.Qt.AlignCenter)
